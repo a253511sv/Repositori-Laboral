@@ -68,8 +68,8 @@
 ### 💻 Profile Stats
 
 <div align="center">
-  <img alt="Sebastián's Github Stats" src="https://github-readme-stats.vercel.app/api?username=a253511sv&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight" height="165px"/>
-  <img alt="Sebastián's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=a253511sv&langs_count=8&layout=compact&theme=tokyonight" height="165px"/>
+  <img alt="Sebastián's Github Stats" src="https://github-readme-stats.vercel.app/api?username=a253511sv&show_icons=true&theme=tokyonight" height="165px"/>
+  <img alt="Sebastián's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=a253511sv&layout=compact&theme=tokyonight" height="165px"/>
 </div>
 
 ### 🔥 Streak Stats
@@ -81,7 +81,7 @@
 ### 📊 Contribution Graph
 
 <div align="center">
-  <img alt="Sebastián's Activity Graph" src="https://github-readme-activity-graph.vercel.app/graph?username=a253511sv&theme=tokyonight" />
+  <img alt="Sebastián's Contribution Graph" src="https://ghchart.rshah.org/40c463/a253511sv" width="100%" />
 </div>
 
 Credit: [Sebastián Villanueva](https://github.com/a253511sv)  
