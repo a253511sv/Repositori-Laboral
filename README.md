@@ -27,11 +27,8 @@
 <a href="https://github.com/a253511sv">
     ![GitHub: a253511sv](https://img.shields.io/github/followers/a253511sv?label=follow&style=social)
 </a>
-<a href="mailto:shebita1804@gmail.com">
-    ![Email: shebita1804@gmail.com](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white)
-</a>
-<a href="https://www.linkedin.com/in/sebastian-villanueva/">
-    ![Linkedin: Sebastian Villanueva](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=Linkedin&logoColor=white)
+<a href="mailto:a253511sv@correu.escoladeltreball.org">
+    ![Email: a253511sv@correu.escoladeltreball.org](https://img.shields.io/badge/-Email-c14438?style=flat-square&logo=Gmail&logoColor=white)
 </a>
 
 &emsp;
@@ -48,13 +45,13 @@
 ### Frontend development:
 &emsp;
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-7952B3?style=flat-square&logo=Bootstrap&logoColor=white)
-![jQuery](https://img.shields.io/badge/-jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white)
 ![Canva](https://img.shields.io/badge/-Canva-00C4CC?style=flat-square&logo=Canva&logoColor=white)
 
 ### Databases:
 &emsp;
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=MySQL&logoColor=white)
 ![SQL Server](https://img.shields.io/badge/-SQL_Server-CC292B?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![MongoDB](https://img.shields.io/badge/-MongoDB-47A248?style=flat-square&logo=MongoDB&logoColor=white)
 
 ### Misc & DevOps tools:
 &emsp;
@@ -71,11 +68,6 @@
 ### 💻 Profile Stats
 
 <img alt="Sebastián's Github Stats" src="https://github-readme-stats.vercel.app/api/?username=a253511sv&show_icons=true&include_all_commits=true&count_private=true&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/><img alt="Sebastián's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=a253511sv&langs_count=8&layout=compact&theme=react&hide_border=true&bg_color=1F222E&title_color=F85D7F&icon_color=F8D866" height="192px"/>
-
-
-### 🔥 Streak Stats
-
-![Sebastián's GitHub stats](https://github-readme-streak-stats.herokuapp.com/?user=a253511sv&theme=tokyonight)
 
 ### 📊 Contribution Stats
 
