@@ -1,7 +1,7 @@
 # Repositori-Laboral
 <h1 align="center">Hi 👋, I'm Sebastián Villanueva</h1>
 
-<img src="https://raw.githubusercontent.com/a253511sv/a253511sv/main/assets/header.jpg" align="center" alt="Sebastián Villanueva header image">
+<img src="https://user-images.githubusercontent.com/89788120/167628634-549d2bdd-609e-4275-85af-1e1974da64ca.gif" width="40%" align="right" alt="Coding GIF" />
 
 -------------------
 &emsp;
@@ -60,6 +60,7 @@
 ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=Docker&logoColor=white)
 ![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=Visual-Studio-Code&logoColor=white)
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=Linux&logoColor=black)
+![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
 
 &emsp;
 
