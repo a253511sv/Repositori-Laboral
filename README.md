@@ -90,6 +90,5 @@
 ---
 
 <div align="center">
-  <sub>👁️ Profile Views</sub><br/>
-  <img src="https://profile-counter.glitch.me/a253511sv/count.svg" alt="Visitors Count"/>
+  <img src="https://komarev.com/ghpvc/?username=a253511sv&color=22ebf7&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
 </div>
