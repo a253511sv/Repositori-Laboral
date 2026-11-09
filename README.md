@@ -68,8 +68,8 @@
 ### 💻 Profile Stats
 
 <div align="center">
-  <img alt="Sebastián's Github Stats" src="https://github-readme-stats.vercel.app/api?username=a253511sv&show_icons=true&theme=tokyonight" height="165px"/>
-  <img alt="Sebastián's Top Languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=a253511sv&layout=compact&theme=tokyonight" height="165px"/>
+  <img alt="Sebastián's Github Stats" src="https://github-readme-stats-two-nu.vercel.app/api?username=a253511sv&show_icons=true&theme=tokyonight" height="165px"/>
+  <img alt="Sebastián's Top Languages" src="https://github-readme-stats-two-nu.vercel.app/api/top-langs/?username=a253511sv&layout=compact&theme=tokyonight" height="165px"/>
 </div>
 
 ### 🔥 Streak Stats
