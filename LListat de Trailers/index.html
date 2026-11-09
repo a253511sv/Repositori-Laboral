@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reproductor Interactiu - RA4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="video-container">
+        <!-- Títol dinàmic -->
+        <h2 id="titolPeli" style="text-align:center; color:white; padding:10px; margin:0;">Reproductor</h2>
+        
+        <video id="mainVideo" class="video-player" width="100%" poster="poster.jpg">
+            <source src="/Video/Marvel Television’s Daredevil_ Born Again Season 2 _ Teaser Trailer.mp4" type="video/mp4">
+            <!-- IMPORTANT: Ara tenen ID per poder-los modificar des de JS -->
+            <track id="trackCa" label="Català" kind="subtitles" srclang="ca" src="/subs-ca.vtt" default>
+            <track id="trackEs" label="Castellano" kind="subtitles" srclang="es" src="/subs-es.vtt">
+            <track id="trackEn" label="English" kind="subtitles" srclang="en" src="/subs-en.vtt">
+        </video>
+
+        <div class="player-controls">
+            <button id="btnPlayPause">Play</button>
+            <button id="btnRewind">-10s</button>
+            <button id="btnForward">+10s</button>
+
+            <div class="progress-wrapper" id="progressWrapper">
+                <div id="progressFill" class="progress-bar"></div>
+            </div>
+
+            <div class="time-info">
+                <span id="currentTime">00:00</span> / <span id="totalTime">00:00</span>
+            </div>
+
+            <button id="btnMute">Mute</button>
+
+            <select id="selectLanguage">
+                <option value="ca">Català</option>
+                <option value="es">Castellano</option>
+                <option value="en">English</option>
+                <option value="off">Sense subtítols</option>
+            </select>
+
+            <select id="selectSpeed">
+                <option value="1">x1.0</option>
+                <option value="1.5">x1.5</option>
+                <option value="2">x2.0</option>
+            </select>
+            <button id="btnFullscreen">[ ]</button>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

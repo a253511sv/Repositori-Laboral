@@ -1,0 +1,79 @@
+
+/* Fons fosc per a la pàgina de la taula */
+body {
+    background-color: #121212;
+    color: white;
+}
+
+/* Estil principal de la taula */
+table.dataTable {
+    background-color: #1e1e1e;
+    color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    border-collapse: collapse;
+}
+
+/* Capçalera de la taula en vermell fosc */
+table.dataTable thead th {
+    background-color: #ad0000;
+    color: white;
+    border-bottom: 2px solid #fff;
+    padding: 12px;
+}
+
+/* Files de la taula */
+table.dataTable tbody tr {
+    background-color: #1e1e1e;
+}
+
+/* Efecte ratllat (files parells lleugerament més clares) */
+table.dataTable tbody tr:nth-child(even) {
+    background-color: #252525;
+}
+
+/* Efecte en passar el ratolí per sobre (Hover) */
+table.dataTable tbody tr:hover {
+    background-color: #333333;
+}
+
+/* Arrodonir les imatges dels pòsters */
+.poster-min {
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.5);
+}
+
+/* Canviar el color del text del cercador i la info a blanc */
+.dataTables_wrapper .dataTables_info,
+.dataTables_wrapper .dataTables_filter,
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    color: white !important;
+}
+
+/* Caixes de text del cercador i selector */
+.dataTables_wrapper .dataTables_filter input,
+.dataTables_wrapper .dataTables_length select {
+    background-color: #333;
+    color: white;
+    border: 1px solid #555;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+/* Botó de la pàgina actual a la paginació */
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background: #ad0000 !important;
+    color: white !important;
+    border: 1px solid #ad0000;
+    border-radius: 5px;
+}
+
+/* Botons de la paginació en passar el ratolí */
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background: #444 !important;
+    color: white !important;
+    border: 1px solid #555;
+}

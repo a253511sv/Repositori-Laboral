@@ -1,0 +1,158 @@
+/* 1. Estils Generals del Body */
+body {
+    background-color: #121212; /* Fons fosc per a tota la pàgina */
+    color: white;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* 2. Contenidor Principal */
+.video-container {
+    width: 100%;
+    max-width: 1400px;
+    background: #1a1a1a; /* Color de fons del bloc de controls */
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.7);
+    display: flex;
+    flex-direction: column; /* Força que els controls vagin a sota del vídeo */
+}
+
+/* Estil especial quan el contenidor està en pantalla completa */
+.video-container:fullscreen {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black; /* Evita que es vegin fons estranys */
+}
+
+/* Assegurem que els controls surtin per sobre del vídeo en pantalla completa */
+.video-container:fullscreen .player-controls {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 2147483647; /* El número més alt possible per estar sempre al capdamunt */
+    background: rgba(0, 0, 0, 0.7); /* Una mica d'opacitat per llegir bé */
+}
+
+/* 3. L'Element Vídeo */
+video {
+    width: 100%;
+    display: block;
+    background: black;
+    border-bottom: 1px solid #333; /* Línia divisòria subtil */
+}
+
+/* 4. Barra de Controls (Sota el vídeo) */
+.player-controls {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    gap: 12px;
+    background: #1a1a1a;
+    box-sizing: border-box;
+}
+
+/* 5. Botons i Selectors */
+button, select {
+    background: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: background 0.2s, transform 0.1s;
+    outline: none;
+}
+
+button:hover {
+    background: #444;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Estil específic per al botó Play/Pause (més visible) */
+#btnPlayPause {
+    background: #ad0000; /* Vermell destacat */
+    min-width: 70px;
+}
+
+#btnPlayPause:hover {
+    background: #ff0a16;
+}
+
+/* 6. Línia de Temps (Barra de Progrés) */
+.progress-wrapper {
+    flex-grow: 1; /* Ocupa tot l'espai sobrant */
+    height: 8px;
+    background: #444;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-bar {
+    width: 0%; /* Es controla via JavaScript */
+    height: 100%;
+    background: #e50914;
+    border-radius: 4px;
+    transition: width 0.1s linear;
+}
+
+/* 7. Informació de Temps (Text) */
+.time-info {
+    font-size: 0.85rem;
+    font-family: monospace; /* Tipografia fixa perquè els números no ballin */
+    min-width: 100px;
+    text-align: center;
+    color: #bbb;
+}
+
+/* 8. Subtítols (Renderitzats pel navegador sobre el vídeo) */
+video::cue {
+    background: rgba(0, 0, 0, 0.75);
+    color: #ffffff;
+    font-size: 1.1rem;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* 9. Adaptabilitat per a mòbils */
+@media (max-width: 600px) {
+    .player-controls {
+        flex-wrap: wrap; /* Els controls es divideixen en dues línies si no caben */
+        justify-content: center;
+    }
+    
+    .progress-wrapper {
+        width: 100%;
+        order: -1; /* Posa la barra de progrés a dalt de tot dels controls */
+        margin-bottom: 10px;
+    }
+}
+
+/* Estils específics quan el contenidor està en pantalla completa */
+.video-container:fullscreen {
+    width: 100vw;
+    height: 100vh;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra el vídeo verticalment */
+    border-radius: 0;
+}
+
+.video-container:fullscreen .player-controls {
+    border-radius: 0;
+    padding: 20px; /* Una mica més d'espai en pantalla completa */
+}

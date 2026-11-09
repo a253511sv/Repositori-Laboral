@@ -1,0 +1,32 @@
+[
+    {
+        "titol": "Marvel Daredevil Born Again Season 2",
+        "arxiu": "/Video/Marvel Television’s Daredevil_ Born Again Season 2 _ Teaser Trailer.mp4",
+        "poster": "/img/poster.jpg",
+        "any": "2026",
+        "genere": "Acció / Superherois",
+        "subsCa": "subs-ca.vtt",
+        "subsEs": "subs-es.vtt",
+        "subsEn": "subs-en.vtt"
+    },
+    {
+        "titol": "Star Wars: The Mandalorian and Grogu",
+        "arxiu": "/Video/Final-Trailer-Star-Wars-The-Mandalorian-and-Grogu.mp4",
+        "poster": "/img/poster2.jpg",
+        "any": "2026",
+        "genere": "Aventura / Ciència-Ficció",
+        "subsCa": "subs-mando-ca.vtt",
+        "subsEs": "subs-mando-es.vtt",
+        "subsEn": "subs-mando-en.vtt"
+    },
+    {
+        "titol": "Coyote vs ACME",
+        "arxiu": "/Video/Coyote-vs-ACME.mp4",
+        "poster": "/img/poster3.jpg",
+        "any": "2026",
+        "genere": "Comedia / Aventura",
+        "subsCa": "subs-coyote-ca.vtt",
+        "subsEs": "subs-coyote-es.vtt",
+        "subsEn": "subs-coyote-en.vtt"
+    }
+]
