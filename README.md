@@ -28,14 +28,8 @@
   <a href="https://github.com/a253511sv">
     <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="mailto:shebita1804@gmail.com">
+  <a href="mailto:svillanueva.dev@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Gmail" />
-  </a>
-  <a href="mailto:a253511sv@correu.escoladeltreball.org">
-    <img src="https://img.shields.io/badge/Edu--Email-c14438?style=flat-square&logo=Gmail&logoColor=white" alt="Edu Email" />
-  </a>
-  <a href="https://www.linkedin.com/in/sebastian-villanueva/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 
