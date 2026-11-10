@@ -77,10 +77,6 @@
 
 <br/>
 
-<div align="center">
-  <img alt="Sebastián's Contribution Graph" src="https://ghchart.rshah.org/40c463/a253511sv" width="100%" />
-</div>
-
 ---
 
 <div align="center">
